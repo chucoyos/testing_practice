@@ -5,9 +5,17 @@ const calculator = (function() {
   const subtract = ((a, b) => {
     return a - b
   })
+  const divide = (a, b) => {
+    return a / b
+  }
+  const multiply = (a, b) => {
+    return a * b
+  }
   return {
     add,
-    subtract
+    subtract,
+    divide,
+    multiply
   }
 })()
 
