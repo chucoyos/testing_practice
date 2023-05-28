@@ -1,5 +1,15 @@
 import capitalize from "./capitalize";
-
-it('returns a capitalized text', () => {
-  expect(capitalize('house')).toBe('House')
+describe('capitalize', () => {
+  it('returns a capitalized text', () => {
+    expect(capitalize('house')).toBe('House')
+  })
+  it('returns a capitalized text', () => {
+    expect(capitalize('HOUSE')).toBe('House')
+  })
+  it('returns a capitalized text', () => {
+    expect(capitalize('hOuSe')).toBe('House')
+  })
+  it('returns a capitalized text', () => {
+    expect(capitalize('hOuSe')).toBe('House')
+  })
 })

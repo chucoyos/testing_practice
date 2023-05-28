@@ -1,4 +1,6 @@
 function capitalize(text) {
-  return text.charAt(0).toUpperCase() + text.slice(1)
+  // returns a capitalized text an can handle any case
+  return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase()
+  
 }
 export default capitalize
